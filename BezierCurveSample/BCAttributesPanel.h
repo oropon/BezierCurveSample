@@ -10,4 +10,12 @@
 
 @interface BCAttributesPanel : NSPanel
 
+@property (readonly) NSPoint p0;
+@property (readonly) NSPoint p1;
+@property (readonly) NSPoint p2;
+@property (readonly) NSPoint p3;
+@property (readonly) float t;
+@property (readonly) BOOL drawAdditionalLines;
+@property (readonly) BOOL drawCurve;
+
 @end

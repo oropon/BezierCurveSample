@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class BCProjectController;
 @interface BCCurveView : NSView
+
+@property (nonatomic, assign) IBOutlet BCProjectController* projectController;
 
 @end

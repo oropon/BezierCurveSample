@@ -13,6 +13,9 @@
 		29EC721C16D062C20075126D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 29EC721A16D062C20075126D /* Credits.rtf */; };
 		29EC721F16D062C20075126D /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC721E16D062C20075126D /* BCAppDelegate.m */; };
 		29EC722216D062C20075126D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29EC722016D062C20075126D /* MainMenu.xib */; };
+		29EC722A16D0636E0075126D /* BCCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC722916D0636E0075126D /* BCCurveView.m */; };
+		29EC722D16D0670F0075126D /* BCProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC722C16D0670F0075126D /* BCProjectController.m */; };
+		29EC723016D067740075126D /* BCAttributesPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC722F16D067740075126D /* BCAttributesPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		29EC721D16D062C20075126D /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
 		29EC721E16D062C20075126D /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
 		29EC722116D062C20075126D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29EC722816D0636E0075126D /* BCCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCCurveView.h; sourceTree = "<group>"; };
+		29EC722916D0636E0075126D /* BCCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCCurveView.m; sourceTree = "<group>"; };
+		29EC722B16D0670F0075126D /* BCProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCProjectController.h; sourceTree = "<group>"; };
+		29EC722C16D0670F0075126D /* BCProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCProjectController.m; sourceTree = "<group>"; };
+		29EC722E16D067740075126D /* BCAttributesPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAttributesPanel.h; sourceTree = "<group>"; };
+		29EC722F16D067740075126D /* BCAttributesPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAttributesPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				29EC721E16D062C20075126D /* BCAppDelegate.m */,
 				29EC722016D062C20075126D /* MainMenu.xib */,
 				29EC721216D062C20075126D /* Supporting Files */,
+				29EC722816D0636E0075126D /* BCCurveView.h */,
+				29EC722916D0636E0075126D /* BCCurveView.m */,
+				29EC722B16D0670F0075126D /* BCProjectController.h */,
+				29EC722C16D0670F0075126D /* BCProjectController.m */,
+				29EC722E16D067740075126D /* BCAttributesPanel.h */,
+				29EC722F16D067740075126D /* BCAttributesPanel.m */,
 			);
 			path = BezierCurveSample;
 			sourceTree = "<group>";
@@ -169,6 +184,9 @@
 			files = (
 				29EC721816D062C20075126D /* main.m in Sources */,
 				29EC721F16D062C20075126D /* BCAppDelegate.m in Sources */,
+				29EC722A16D0636E0075126D /* BCCurveView.m in Sources */,
+				29EC722D16D0670F0075126D /* BCProjectController.m in Sources */,
+				29EC723016D067740075126D /* BCAttributesPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +322,7 @@
 				29EC722716D062C20075126D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
