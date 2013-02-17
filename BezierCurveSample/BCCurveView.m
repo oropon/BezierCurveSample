@@ -100,12 +100,19 @@ float curveLength(NSPoint p0, NSPoint p1, NSPoint p2, NSPoint p3, int steps)
     // Draw curve
     if (drawCurve) {
         // Get curve
-        NSBezierPath*   curve;
+        NSBezierPath*   curve;// p0 to p3
+        NSBezierPath*   halfway;// p0 to b
+
         curve = [NSBezierPath bezierPath];
         [curve moveToPoint:p0];
-        [curve curveToPoint:b controlPoint1:q0 controlPoint2:r0];
+        [curve curveToPoint:p3 controlPoint1:q1 controlPoint2:p2];
+        
+        halfway = [NSBezierPath bezierPath];
+        [halfway moveToPoint:p0];
+        [halfway curveToPoint:b controlPoint1:q0 controlPoint2:r0];
+        
         [[NSColor redColor] setStroke];
-        [curve stroke];
+        [halfway stroke];
     }
     
     // Draw 'p' lines
